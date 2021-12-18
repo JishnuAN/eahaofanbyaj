@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body {
+  background-image: url(bg.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+.header ul {
+  float: right;
+}
+
+.header ul li {
+  display: inline-block;
+}
+
+.header ul li a {
+  text-decoration: none;
+  font-size: 1.7vw;
+  transition: 0.6s ease;
+  font-family: lobster;
+  color: purple;
+}
+
+.header ul li a:hover {
+  color:purple;
+}
+
+::-webkit-scrollbar {
+  width: 0vw;
+  background-color: #fff;
+}
+
+::-webkit-scrollbar:hover {
+  background-color: grey;
+}
+
+.foot p {
+  font-family: lobster;
+  color: rgb(134, 6, 253);
+  font-size: 4vw;
+  text-align: right;
+}
